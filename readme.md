@@ -9,7 +9,7 @@ Hope Thomson<sup>1\*</sup>, Antonia Sebastian<sup>2</sup>, Harrison Zeff<sup>3</
 <sup>3 </sup> Center on Financial Risk in Environmental Systems, University of North Carolina at Chapel Hill<br/>
 
 
-\* corresponding author:  zeff@live.unc.edu
+\* corresponding author:  hope.thomson@sog.unc.edu
 
 ## Abstract
 Large flood events are known to be destructive, but we don’t understand exactly how that they impact our society. For one, a lot of people experience flood damage that is uninsured, but we aren’t able to count up these damage costs as easily as we are insured damage. Additionally, over time the flood can cause other impacts, such as decreases in property values. These effects together can make it difficult for property owners to recover from the flood. In some cases, damage and property value decrease can encourage abandonment of the property. This can create financial consequences for the property owner, the mortgage lender, or a government.
