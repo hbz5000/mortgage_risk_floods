@@ -1,5 +1,3 @@
-_zenodo placeholder_
-
 # Systemic financial risk arising from residential flood loss
 
 **Calculates how post-flood residential real estate losses create risks for homeowners, lenders, and local governments**
@@ -21,7 +19,7 @@ Thomson. H., et al. (TBD). Systemic financial risk arising from residential floo
 
 ## Code reference: TMI
 Zenodo link:
-Human, I.M. (2021, April 14). Project/repo:v0.1.0 (Version v0.1.0). Zenodo. http://doi.org/some-doi-number/zenodo.7777777
+Thomson, H. (TBD). Project/repo:v0.1.0 (Version v0.1.0). Zenodo. http://doi.org/some-doi-number/zenodo.7777777
 
 ## Data reference
 Parcel Data: https://www.nconemap.gov/<br/>
@@ -31,17 +29,20 @@ Soil Data: https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx<br/>
 NFIP (public) Data: https://www.fema.gov/about/openfema/data-sets<br/>
 Property Sales Data (private): https://www.attomdata.com/<br/>
 Mortgage Data: https://ffiec.cfpb.gov/data-publication/dynamic-national-loan-level-dataset<br/>
-Mortgage Perforamnce Data: https://capitalmarkets.fanniemae.com/credit-risk-transfer/single-family-credit-risk-transfer/fannie-mae-single-family-loan-performance-data<br/>
+Mortgage Performance Data: https://capitalmarkets.fanniemae.com/credit-risk-transfer/single-family-credit-risk-transfer/fannie-mae-single-family-loan-performance-data<br/>
 
 ## Reproduce my experiment
 Because of their reliance on private property transaction and FEMA policy/claim data, the three sub-models (ML flood damage, kriging property value, stochastic mortgage repayment) cannot be shared here. Anonymized parcel-level output from each model is included in the public_input_files folder at the google drive link.  Scripts to perform the agent-based decision tree analysis and create figures are included here.
 
 1. Download the scripts: decision_tree_public.py & make_underwater_mortgage_plots.py from mortgage_flood_risk repo
 2. Download public_input_files folder from link at: https://drive.google.com/drive/folders/1jYi89ydN9GFGsxrbFB11OQ8IQifsvChT?usp=sharing
-2. Place scripts and public_input_files folder in working directory, check that files: damage_output_public.csv, ltv_output_public.csv, and pv_output_public.csv; are in folder: public_input_files
-3. Run decsision_tree_public.py to write output_abdt_public_(current_date).csv to working directory
+3. Place scripts and public_input_files folder in working directory 
+4. Check public_input_file/damage_output_public.csv (parcel level uninsured flood damage)
+5. Check public_input_file/ltv_output_public.csv (parcel level mortgage loan-to-value ratio)
+6. Check public_input_file/pv_output_public.csv (parcel level property value estimation)
+7. Run decsision_tree_public.py to write output_abdt_public_(current_date).csv to working directory
 
 ## Reproduce my figures
-4. Run make_underwater_mortgage_plots.py to create figures from Thomson et al. (2022) in working directory
-5. Look at figures
+8. Run make_underwater_mortgage_plots.py to create figures from Thomson et al. (2022) in working directory
+9. Look at figures
 
