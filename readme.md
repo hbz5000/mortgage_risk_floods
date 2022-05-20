@@ -1,14 +1,14 @@
 _zenodo placeholder_
 
-# thomson-etal_journal_tbd
+# Systemic financial risk arising from residential flood loss
 
-**Systemic financial risk arising from residential flood loss**
+**Calculates how post-flood residential real estate losses create risks for homeowners, lenders, and local governments**
 
 Hope Thomson<sup>1\*</sup>, Antonia Sebastian<sup>2</sup>, Harrison Zeff<sup>3</sup>, Rachel Kleiman<sup>3</sup>,and Gregory W. Characklis<sup>3</sup>,
 
-<sup>1 </sup> Environmental Finance Center, University of North Carolina at Chapel Hill
-<sup>2 </sup> Department of Earth, Marine and Environmental Sciences, University of North Carolina at Chapel Hill
-<sup>3 </sup> Center on Financial Risk in Environmental Systems, University of North Carolina at Chapel Hill
+<sup>1 </sup> Environmental Finance Center, University of North Carolina at Chapel Hill<br/>
+<sup>2 </sup> Department of Earth, Marine and Environmental Sciences, University of North Carolina at Chapel Hill<br/>
+<sup>3 </sup> Center on Financial Risk in Environmental Systems, University of North Carolina at Chapel Hill<br/>
 
 
 \* corresponding author:  zeff@live.unc.edu
@@ -24,17 +24,17 @@ Zenodo link:
 Human, I.M. (2021, April 14). Project/repo:v0.1.0 (Version v0.1.0). Zenodo. http://doi.org/some-doi-number/zenodo.7777777
 
 ## Data reference
-Parcel Data: https://www.nconemap.gov/
-Land Cover Data: https://www.mrlc.gov/
-Hydrography Data: https://www.usgs.gov/national-hydrography/nhdplus-high-resolution
-Soil Data: https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx
-NFIP (public) Data: https://www.fema.gov/about/openfema/data-sets
-Property Sales Data (private): https://www.attomdata.com/
-Mortgage Data: https://ffiec.cfpb.gov/data-publication/dynamic-national-loan-level-dataset
-Mortgage Perforamnce Data: https://capitalmarkets.fanniemae.com/credit-risk-transfer/single-family-credit-risk-transfer/fannie-mae-single-family-loan-performance-data
+Parcel Data: https://www.nconemap.gov/<br/>
+Land Cover Data: https://www.mrlc.gov/<br/>
+Hydrography Data: https://www.usgs.gov/national-hydrography/nhdplus-high-resolution<br/>
+Soil Data: https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx<br/>
+NFIP (public) Data: https://www.fema.gov/about/openfema/data-sets<br/>
+Property Sales Data (private): https://www.attomdata.com/<br/>
+Mortgage Data: https://ffiec.cfpb.gov/data-publication/dynamic-national-loan-level-dataset<br/>
+Mortgage Perforamnce Data: https://capitalmarkets.fanniemae.com/credit-risk-transfer/single-family-credit-risk-transfer/fannie-mae-single-family-loan-performance-data<br/>
 
 ## Reproduce my experiment
-Because of their reliance on private property transaction and FEMA policy/claim data, the three sub-models (ML flood damage, kriging property value, stochastic mortgage repayment) cannot be shared here. Anonymized parcel-level output from each model is included in the public_input_files folder.  Scripts to perform the agent-based decision tree analysis and create figures are included here
+Because of their reliance on private property transaction and FEMA policy/claim data, the three sub-models (ML flood damage, kriging property value, stochastic mortgage repayment) cannot be shared here. Anonymized parcel-level output from each model is included in the public_input_files folder at the google drive link.  Scripts to perform the agent-based decision tree analysis and create figures are included here.
 
 1. Download the scripts: decision_tree_public.py & make_underwater_mortgage_plots.py from mortgage_flood_risk repo
 2. Download public_input_files folder from link at: https://drive.google.com/drive/folders/1jYi89ydN9GFGsxrbFB11OQ8IQifsvChT?usp=sharing
